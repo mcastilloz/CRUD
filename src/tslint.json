@@ -1,0 +1,50 @@
+{
+  "extends": "../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "app",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "app",
+      "kebab-case"
+    ],
+    "naming-convention": [
+      true,
+      {
+        "type": "default",
+        "format": "camelCase",
+        "leadingUnderscore": "forbid",
+        "trailingUnderscore": "forbid"
+      },
+      {
+        "type": "member",
+        "modifiers": "private",
+        "format": "camelCase",
+        "leadingUnderscore": "require"
+      },
+      {
+        "type": "class",
+        "format": "PascalCase"
+      },
+      {
+        "type": "interface",
+        "format": "PascalCase",
+        "prefix": "I"
+      },
+      {
+        "type": "enum",
+        "format": "PascalCase",
+        "suffix": "Enum"
+      },
+      {
+        "type": "enumMember",
+        "format": "PascalCase"
+      }
+    ]
+  }
+}
