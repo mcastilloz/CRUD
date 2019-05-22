@@ -1,7 +1,6 @@
 CRUD with a Realtime Data Base from Firebase
 
-DEMO ONLINE
-https://mybootstrap-26f8c.firebaseapp.com/
+https://prixfy-64d7c.firebaseapp.com/
 
 
 # CRUD
